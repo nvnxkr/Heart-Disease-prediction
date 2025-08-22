@@ -66,7 +66,6 @@ st.sidebar.info(
 # ----------------------------
 st.title("❤️ Heart Disease Prediction ")
 st.markdown("Check your **heart health risk** by filling the details below.")
-st.write("---")
 
 # ----------------------------
 # UI Inputs
@@ -163,3 +162,4 @@ if st.button("🔍 Predict"):
         st.error(f"⚠️ **High risk of Heart Disease**\n\n🔴 Probability: **{probability:.2f}**" )
     else:
         st.success(f"✅ **Low risk of Heart Disease**\n\n🟢 Probability: **{probability:.2f}**")
+
